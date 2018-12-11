@@ -4,6 +4,7 @@
 3: Form styling
 4: Table styles
 5: Page specific styles
+6: bokse
 ---------------------------------------------------*/
 
 /*---------------------------------------------------
@@ -149,4 +150,16 @@ td {
 /*Login page*/
 .loginpage {
     background-color: var(--color-accent);
+}
+
+/*---------------------------------------------------
+6: bokse
+---------------------------------------------------*/
+#aflevering {
+    background-image: url(billeder/aflevering_baggrund.svg);
+    background-size: 100%;
+    width: 100vw;
+    height: 54.70vw;
+    position: relative;
+
 }

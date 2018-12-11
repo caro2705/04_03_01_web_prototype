@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 162 167">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-lektie_tag);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #3f3140;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-lektie_tag">
+      <rect width="162" height="167"/>
+    </clipPath>
+  </defs>
+  <g id="lektie_tag" class="cls-1">
+    <rect class="cls-4" width="162" height="167"/>
+    <g id="Group_220" data-name="Group 220" transform="translate(-254 -183.6)">
+      <g id="Price" transform="translate(138 -29)">
+        <rect id="Rectangle_554" data-name="Rectangle 554" class="cls-2" width="23.6" height="23.6" transform="translate(185 290)"/>
+        <path id="Path_148" data-name="Path 148" class="cls-3" d="M.393,14.947C.2,14.553,0,14.357,0,13.963a1.5,1.5,0,0,1,.393-.983L13.177.2a.193.193,0,0,1,.2-.2h8.653a1.5,1.5,0,0,1,.983.393,1.4,1.4,0,0,1,.59,1.18v8.653c0,.2,0,.2-.2.393L10.62,23.4a8.518,8.518,0,0,1-.983.2,1.5,1.5,0,0,1-.983-.393ZM16.913,3.54a2.428,2.428,0,0,0-.787,1.573,2.233,2.233,0,0,0,.59,1.573,2.393,2.393,0,0,0,3.147,0,2.233,2.233,0,0,0,.59-1.573A2.119,2.119,0,0,0,20.06,3.54a2.393,2.393,0,0,0-3.147,0Z" transform="translate(185 290)"/>
+      </g>
+    </g>
+  </g>
+</svg>
