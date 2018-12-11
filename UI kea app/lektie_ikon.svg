@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 118 116">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-lektie_ikon);
+      }
+
+      .cls-2 {
+        fill: #fffaf9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-lektie_ikon">
+      <rect width="118" height="116"/>
+    </clipPath>
+  </defs>
+  <g id="lektie_ikon" class="cls-1">
+    <rect class="cls-3" width="118" height="116"/>
+    <g id="Sections" transform="translate(81 -12299)">
+      <path id="Path_261" data-name="Path 261" class="cls-2" d="M0,0V11.25H45V0ZM8.438,8.438H2.813V2.813H8.438ZM0,28.125H45V16.875H0Zm2.813-8.437H8.438v5.625H2.813ZM0,45H45V33.75H0Zm2.813-8.437H8.438v5.625H2.813Z" transform="translate(-44 12335)"/>
+    </g>
+  </g>
+</svg>

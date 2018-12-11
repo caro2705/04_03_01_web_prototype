@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 162 162">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-dag);
+      }
+
+      .cls-2 {
+        fill: #4c374b;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 20px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+    </style>
+    <clipPath id="clip-dag">
+      <rect width="162" height="162"/>
+    </clipPath>
+  </defs>
+  <g id="dag" class="cls-1">
+    <rect class="cls-4" width="162" height="162"/>
+    <rect id="Rectangle_1482" data-name="Rectangle 1482" class="cls-2" width="49" height="35" transform="translate(56.699 64)"/>
+    <text id="D" class="cls-3" transform="translate(74.077 87.773)"><tspan x="0" y="0">D</tspan></text>
+  </g>
+</svg>
