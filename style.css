@@ -1,0 +1,152 @@
+/*---------------------------------------------------
+1: Variables & Common styling
+2: Layout / Grid
+3: Form styling
+4: Table styles
+5: Page specific styles
+---------------------------------------------------*/
+
+/*---------------------------------------------------
+1: Variables & Common styling
+---------------------------------------------------*/
+/*Variables*/
+:root {
+    --color-dark: #2e313e;
+    --color-light: #FEFEFE;
+    --color-accent: rgb(255, 161, 10);
+}
+
+/*Common styling classes*/
+.rounded {
+    border-radius: 5px;
+}
+
+/*---------------------------------------------------
+2: Layout / Grid
+---------------------------------------------------*/
+/*Grid container*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
+    justify-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: var(--color-light);
+}
+
+.afleveringerpage .container {
+    justify-items: left;
+}
+
+/*Grid column items*/
+.frontervskeatitle {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+/*loginpage*/
+.loginform {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.huskmig {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.glemtpassword {
+    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+/*loginpage grid*/
+.formgroup {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    grid-gap: 15px;
+}
+
+.formgroup label {
+    grid-column-start: 1;
+}
+
+.formgroup input {
+    grid-column-start: 2;
+}
+
+.formgroup,
+.glemtpassword {
+    margin-bottom: 1.5em;
+}
+
+/*afleveringer page*/
+.afleveringer {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+/*---------------------------------------------------
+3: Form styling
+---------------------------------------------------*/
+/*Inputs*/
+label,
+input[type=text],
+input[tpe=email],
+input[type=password],
+input[type=submit] {
+    padding: 1em;
+}
+
+input[type=text],
+input[tpe=email],
+input[type=password] {
+    border: 1px solid var(--color-accent);
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+    border: 3px solid var(--color-accent);
+    outline: -webkit-focus-ring-color auto 0;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    transition: background-color 1s, color 1s;
+}
+
+input[type=submit]:hover {
+    background-color: var(--color-accent);
+}
+
+/*---------------------------------------------------
+4: Table styles
+---------------------------------------------------*/
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+td {
+    border: 1px dashed var(--color-accent);
+}
+
+/*---------------------------------------------------
+5: Page specific styles
+---------------------------------------------------*/
+/*Login page*/
+.loginpage {
+    background-color: var(--color-accent);
+}
