@@ -35,7 +35,7 @@ p {
     width: 100vw;
     height: auto;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 #lektier_baggrund2 {
@@ -43,7 +43,7 @@ p {
     width: 100vw;
     height: 178vw;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 
@@ -533,8 +533,8 @@ farver
 ----------------------------------------------------*/
 
 :root {
-    --color--purpledark: #392b39;
-    --color--purplelight: #624f62;
+    --color-purpledark: #392b39;
+    --color-purplelight: #624f62;
 }
 
 
@@ -575,7 +575,7 @@ farver
     position: absolute;
     top: 150px;
     left: 35px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 23px;
     text-align: center;
@@ -584,7 +584,7 @@ farver
 }
 
 #boks1_1 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 300px;
     height: 70px;
@@ -597,7 +597,7 @@ farver
 }
 
 #boks1_2 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     background-size: 100%;
     width: 300px;
@@ -611,7 +611,7 @@ farver
 }
 
 #boks1_3 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 300px;
     height: 70px;
@@ -624,7 +624,7 @@ farver
 }
 
 #boks1_4 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 300px;
     height: 70px;
@@ -646,7 +646,7 @@ farver
     height: 60px;
     top: 150px;
     left: 35px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 23px;
     text-align: center;
@@ -656,7 +656,7 @@ farver
 }
 
 #boks2_1 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 300px;
     height: 70px;
@@ -669,7 +669,7 @@ farver
 }
 
 #boks2_2 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     background-size: 100%;
     width: 300px;
@@ -683,7 +683,7 @@ farver
 }
 
 #boks2_3 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 300px;
     height: 70px;
@@ -696,7 +696,7 @@ farver
 }
 
 #boks2_4 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 300px;
     height: 70px;
@@ -722,7 +722,7 @@ farver
     height: 60px;
     top: 150px;
     left: 35px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 23px;
     text-align: center;
@@ -732,7 +732,7 @@ farver
 }
 
 #boks3_1 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 210px;
     height: 70px;
@@ -745,7 +745,7 @@ farver
 }
 
 #boks3_2 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 210px;
     height: 70px;
@@ -758,7 +758,7 @@ farver
 }
 
 #boks3_3 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 210px;
     height: 70px;
@@ -771,7 +771,7 @@ farver
 }
 
 #boks3_4 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 210px;
     height: 70px;
@@ -788,7 +788,7 @@ farver
     height: 70px;
     top: 0px;
     left: -80px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 19px;
     text-align: right;
@@ -801,7 +801,7 @@ farver
     height: 70px;
     top: 360px;
     left: 43px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 23px;
     text-align: center;
@@ -814,7 +814,7 @@ farver
     height: 70px;
     top: 460px;
     left: 43px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 23px;
     text-align: center;
@@ -827,7 +827,7 @@ farver
     height: 70px;
     top: 560px;
     left: 43px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 23px;
     text-align: center;
@@ -847,7 +847,7 @@ farver
     height: 60px;
     top: 150px;
     left: 35px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 23px;
     text-align: center;
@@ -857,7 +857,7 @@ farver
 }
 
 #boks4_1 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 210px;
     height: 70px;
@@ -870,7 +870,7 @@ farver
 }
 
 #boks4_2 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 210px;
     height: 70px;
@@ -887,7 +887,7 @@ farver
     height: 70px;
     top: 260px;
     left: 40px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 19px;
     text-align: right;
@@ -903,7 +903,7 @@ farver
     height: 70px;
     top: 360px;
     left: 40px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 19px;
     text-align: center;
@@ -927,7 +927,7 @@ farver
     height: 60px;
     top: 150px;
     left: 35px;
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     padding: 23px;
     text-align: center;
@@ -937,7 +937,7 @@ farver
 }
 
 #boks5_1 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 212px;
     height: 50px;
@@ -949,7 +949,7 @@ farver
 }
 
 #boks5_2 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 212px;
     height: 50px;
@@ -961,7 +961,7 @@ farver
 }
 
 #boks5_3 {
-    background-color: var(--color--purplelight);
+    background-color: var(--color-purplelight);
     color: white;
     width: 212px;
     height: 50px;
@@ -973,7 +973,7 @@ farver
 }
 
 #boks5_4 {
-    background-color: var(--color--purpledark);
+    background-color: var(--color-purpledark);
     color: white;
     width: 275px;
     height: 200px;
@@ -1000,7 +1000,7 @@ farver
     position: absolute;
 }
 
-h4 {
+h5 {
     top: 0px;
     left: 20px;
     position: absolute;
@@ -1042,3 +1042,215 @@ Billeder af icon godkend/ ikke godkend
 
 
 /*************JOANNA AFLEVERING SLUT**************/
+
+/*************ANDERS+ASTRID SKEMA START**************/
+body {
+    margin: 0;
+}
+
+#baggrund_skema_dag {
+    background-image: url(billeder/dagens_skema_baggrund.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 300vw;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#baggrund_skema_uge {
+    background-image: url(billeder/dagens_skema_baggrund.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 300vw;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#baggrund_skema_maaned {
+    background-image: url(billeder/dagens_skema_baggrund.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 300vw;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#dagens_skema_oplysninger {
+    background-image: url(billeder/dagens_skema_oplysninger.svg);
+    background-size: 100%;
+    width: 355px;
+    /*    height: 667px;*/
+    position: absolute;
+    height: 850px;
+    top: 47vw;
+    left: 3vw;
+
+}
+
+#ugens_skema_oplysninger {
+    background-image: url(billeder/ugens_skema_oplysninger.svg);
+    background-size: 100%;
+    width: 355px;
+    /*    height: 667px;*/
+    position: absolute;
+    height: 800px;
+    top: 47vw;
+    left: 3vw;
+    background-repeat: no-repeat;
+
+}
+
+#maanedens_skema_oplysninger {
+    background-image: url(billeder/maanedens_skema_oplysninger.svg);
+    background-size: 100%;
+    width: 355px;
+    /*    height: 667px;*/
+    position: absolute;
+    height: 900px;
+    top: 47vw;
+    left: 3vw;
+    background-repeat: no-repeat;
+
+}
+
+#tilbage {
+    /*        background-image: url(UI_kea_app/tilbage.svg);*/
+    background: url(billeder/tilbage.svg);
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.knap_dag {
+
+    display: inline-block;
+    width: 15vw;
+    height: 12vw;
+    background-color: #4C374B;
+    top: 132px;
+    left: 195px;
+    position: absolute;
+    /*
+    text-align: center;
+    color: white;
+    font-size: 4.3vw;
+    font-family: arial;
+*/
+
+}
+
+.knap_dag_valgt {
+    display: inline-block;
+    width: 15vw;
+    height: 12vw;
+    background-color: #FFB4AA;
+    top: 132px;
+    left: 195px;
+    position: absolute;
+    /*
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    font-family: arial;
+*/
+
+}
+
+.knap_uge {
+    display: inline-block;
+    width: 15vw;
+    height: 12vw;
+    background-color: #4C374B;
+    top: 132px;
+    left: 251px;
+    position: absolute;
+    /*
+    text-align: center;
+    color: white;
+    font-size: 4.3vw;
+    font-family: arial;
+*/
+
+}
+
+.knap_uge_valgt {
+    display: inline-block;
+    width: 15vw;
+    height: 12vw;
+    background-color: #FFB4AA;
+    top: 132px;
+    left: 251px;
+    position: absolute;
+    /*
+    text-align: center;
+    color: white;
+    font-size: 4.3vw;
+    font-family: arial;
+*/
+
+}
+
+.knap_maaned {
+    display: inline-block;
+    width: 15vw;
+    height: 12vw;
+    background-color: #4C374B;
+    top: 132px;
+    left: 307px;
+    position: absolute;
+    /*
+    text-align: center;
+    color: white;
+    font-size: 4.3vw;
+    font-family: arial;
+*/
+}
+
+.knap_maaned_valgt {
+    display: inline-block;
+    width: 15vw;
+    height: 12vw;
+    background-color: #FFB4AA;
+    top: 132px;
+    left: 307px;
+    position: absolute;
+    /*
+    text-align: center;
+    color: white;
+    font-size: 4.3vw;
+    font-family: arial;
+*/
+}
+
+.maaned_valgt_dag {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 180, 170, 0.44);
+    position: absolute;
+    top: 316px;
+    left: 174.5px;
+}
+
+.lektie_tag {
+    background-image: url(billeder/lektie_tag.svg);
+    width: 7vw;
+    height: 7vw;
+    position: absolute;
+    top: 100vw;
+    left: 83vw;
+}
+
+.kalender_cirkel {
+    background-image: url(billeder/kalender_cirkel.svg);
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    top: 101vw;
+    left: 19.5vw;
+    opacity: 0.5;
+}
+
+
+/*************ANDERS+ASTRID SKEMA SLUT**************/

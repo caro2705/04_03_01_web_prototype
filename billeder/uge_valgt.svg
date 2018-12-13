@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb4aa;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Group_226" data-name="Group 226" transform="translate(-51.931 -64)">
+    <rect id="Rectangle_1481" data-name="Rectangle 1481" class="cls-1" width="49" height="35" transform="translate(51.931 64)"/>
+    <text id="U" class="cls-2" transform="translate(69.315 89.773)"><tspan x="0" y="0">U</tspan></text>
+  </g>
+</svg>

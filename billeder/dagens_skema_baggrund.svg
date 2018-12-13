@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 1352">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-I_dag);
+      }
+
+      .cls-2 {
+        fill: #6a596b;
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: #fffaf9;
+        font-size: 54px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.419" x2="1" y2="0.421" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb4aa"/>
+      <stop offset="0.224" stop-color="#f7a39b"/>
+      <stop offset="0.489" stop-color="#f79d94"/>
+      <stop offset="0.743" stop-color="#f58e81"/>
+      <stop offset="1" stop-color="#ea847c"/>
+    </linearGradient>
+    <clipPath id="clip-I_dag">
+      <rect width="375" height="1352"/>
+    </clipPath>
+  </defs>
+  <g id="I_dag" class="cls-1">
+    <rect class="cls-6" width="375" height="1352"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2">
+      <rect class="cls-4" width="375" height="128"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="374" height="127"/>
+    </g>
+    <text id="Skema" class="cls-3" transform="translate(103.5 92)"><tspan x="0" y="0">Skema</tspan></text>
+  </g>
+</svg>

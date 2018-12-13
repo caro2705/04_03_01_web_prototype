@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 347 821">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-I_dag);
+      }
+
+      .cls-3 {
+        fill: #6a596b;
+        stroke: #6a596b;
+        stroke-width: 3px;
+      }
+
+      .cls-4, .cls-6, .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 34px;
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        fill: #69596a;
+        stroke: #4c374b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6, .cls-7 {
+        font-size: 15px;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.055em;
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-10 {
+        fill: #fcaea4;
+      }
+
+      .cls-11 {
+        fill: #fffdfe;
+        font-size: 18px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="268.833" height="370"/>
+    </clipPath>
+    <clipPath id="clip-I_dag">
+      <rect width="347" height="821"/>
+    </clipPath>
+  </defs>
+  <g id="I_dag" class="cls-2">
+    <rect class="cls-8" width="347" height="821"/>
+    <path id="Path_708" data-name="Path 708" class="cls-3" d="M0,0H347V820.982H0Z" transform="translate(-0.465 0.018)"/>
+    <text id="I_dag-2" data-name="I dag" class="cls-4" transform="translate(141.837 42.018)"><tspan x="0" y="0">I dag</tspan></text>
+    <line id="Line_4" data-name="Line 4" class="cls-5" y1="0.939" x2="344.005" transform="translate(-0.452 86.076)"/>
+    <line id="Line_5" data-name="Line 5" class="cls-5" y1="0.939" x2="344.005" transform="translate(-0.357 157.955)"/>
+    <line id="Line_6" data-name="Line 6" class="cls-5" y1="0.939" x2="344.005" transform="translate(-0.263 231.835)"/>
+    <line id="Line_7" data-name="Line 7" class="cls-5" y1="0.939" x2="344.005" transform="translate(2.831 306.721)"/>
+    <line id="Line_8" data-name="Line 8" class="cls-5" y1="0.939" x2="344.005" transform="translate(-0.074 380.594)"/>
+    <line id="Line_9" data-name="Line 9" class="cls-5" y1="0.939" x2="344.005" transform="translate(0.02 457.473)"/>
+    <line id="Line_134" data-name="Line 134" class="cls-5" y1="0.939" x2="344.005" transform="translate(1.334 514.955)"/>
+    <text id="_08:30" data-name="08:30" class="cls-6" transform="translate(8.853 110.902)"><tspan x="0" y="0">08:30</tspan></text>
+    <text id="_-" data-name="-" class="cls-6" transform="translate(25.538 125.902)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_09:15" data-name="09:15" class="cls-6" transform="translate(8.853 140.902)"><tspan x="0" y="0">09:15</tspan></text>
+    <text id="_09:15-2" data-name="09:15" class="cls-6" transform="translate(8.853 182.902)"><tspan x="0" y="0">09:15</tspan></text>
+    <text id="_--2" data-name="-" class="cls-6" transform="translate(25.538 197.902)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_10:00" data-name="10:00" class="cls-6" transform="translate(8.853 212.902)"><tspan x="0" y="0">10:00</tspan></text>
+    <text id="_10:15" data-name="10:15" class="cls-6" transform="translate(8.853 256.902)"><tspan x="0" y="0">10:15</tspan></text>
+    <text id="_--3" data-name="-" class="cls-6" transform="translate(25.538 271.902)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_1" data-name="1" class="cls-7" transform="translate(9.267 286.902)"><tspan x="0" y="0">1</tspan></text>
+    <text id="_1:00" data-name="1:00" class="cls-6" transform="translate(16.781 286.902)"><tspan x="0" y="0">1:00</tspan></text>
+    <text id="_1-2" data-name="1" class="cls-7" transform="translate(9.267 332.902)"><tspan x="0" y="0">1</tspan></text>
+    <text id="_1:00-2" data-name="1:00" class="cls-6" transform="translate(16.781 332.902)"><tspan x="0" y="0">1:00</tspan></text>
+    <text id="_--4" data-name="-" class="cls-6" transform="translate(25.538 347.902)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_1-3" data-name="1" class="cls-7" transform="translate(9.267 362.902)"><tspan x="0" y="0">1</tspan></text>
+    <text id="_1:45" data-name="1:45" class="cls-6" transform="translate(16.781 362.902)"><tspan x="0" y="0">1:45</tspan></text>
+    <text id="_12:30" data-name="12:30" class="cls-6" transform="translate(8.853 407.902)"><tspan x="0" y="0">12:30</tspan></text>
+    <text id="_--5" data-name="-" class="cls-6" transform="translate(25.538 422.902)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_13:15" data-name="13:15" class="cls-6" transform="translate(8.853 437.902)"><tspan x="0" y="0">13:15</tspan></text>
+    <text id="_13:15-2" data-name="13:15" class="cls-6" transform="translate(11.837 474.902)"><tspan x="0" y="0">13:15</tspan></text>
+    <text id="_--6" data-name="-" class="cls-6" transform="translate(28.521 489.902)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_14:00" data-name="14:00" class="cls-6" transform="translate(11.837 504.902)"><tspan x="0" y="0">14:00</tspan></text>
+    <path id="Path_10" data-name="Path 10" class="cls-8" d="M14.239,0,11.65,2.589l9.8,9.8H0v3.7H21.451l-9.8,9.8,2.589,2.589L28.479,14.239Z" transform="translate(241.837 19.018)"/>
+    <path id="Path_10-2" data-name="Path 10" class="cls-8" d="M14.239,0l2.589,2.589-9.8,9.8H28.479v3.7H7.027l9.8,9.8-2.589,2.589L0,14.239Z" transform="translate(85.358 19.018)"/>
+    <line id="Line_135" data-name="Line 135" class="cls-5" y1="0.939" x2="344.005" transform="translate(1.334 577.018)"/>
+    <line id="Line_136" data-name="Line 136" class="cls-5" y1="0.939" x2="344.005" transform="translate(1.334 639.018)"/>
+    <line id="Line_137" data-name="Line 137" class="cls-5" y1="0.939" x2="344.005" transform="translate(1.334 699.018)"/>
+    <line id="Line_138" data-name="Line 138" class="cls-5" y1="0.939" x2="344.005" transform="translate(1.334 760.018)"/>
+    <text id="_14:15" data-name="14:15" class="cls-6" transform="translate(11.837 537.018)"><tspan x="0" y="0">14:15</tspan></text>
+    <text id="_--7" data-name="-" class="cls-6" transform="translate(28.521 552.018)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_15:00" data-name="15:00" class="cls-6" transform="translate(11.837 567.018)"><tspan x="0" y="0">15:00</tspan></text>
+    <text id="_15:15" data-name="15:15" class="cls-6" transform="translate(11.837 599.018)"><tspan x="0" y="0">15:15</tspan></text>
+    <text id="_--8" data-name="-" class="cls-6" transform="translate(28.521 614.018)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_16:00" data-name="16:00" class="cls-6" transform="translate(11.837 629.018)"><tspan x="0" y="0">16:00</tspan></text>
+    <text id="_16:15" data-name="16:15" class="cls-6" transform="translate(11.837 661.018)"><tspan x="0" y="0">16:15</tspan></text>
+    <text id="_--9" data-name="-" class="cls-6" transform="translate(28.521 676.018)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_17:00" data-name="17:00" class="cls-6" transform="translate(11.837 691.018)"><tspan x="0" y="0">17:00</tspan></text>
+    <text id="_17:15" data-name="17:15" class="cls-6" transform="translate(11.837 722.018)"><tspan x="0" y="0">17:15</tspan></text>
+    <text id="_--10" data-name="-" class="cls-6" transform="translate(28.521 737.018)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_18:00" data-name="18:00" class="cls-6" transform="translate(11.837 752.018)"><tspan x="0" y="0">18:00</tspan></text>
+    <text id="_18:15" data-name="18:15" class="cls-6" transform="translate(11.837 780.018)"><tspan x="0" y="0">18:15</tspan></text>
+    <text id="_--11" data-name="-" class="cls-6" transform="translate(28.521 795.018)"><tspan x="0" y="0">-</tspan></text>
+    <text id="_19:00" data-name="19:00" class="cls-6" transform="translate(11.837 810.018)"><tspan x="0" y="0">19:00</tspan></text>
+    <rect id="Rectangle_554" data-name="Rectangle 554" class="cls-1" width="23.6" height="23.6" transform="translate(286.837 184.018)"/>
+    <g id="Repeat_Grid_2" data-name="Repeat Grid 2" class="cls-9" transform="translate(62.583 89)">
+      <g id="Group_203" data-name="Group 203" transform="translate(-128 -160)">
+        <path id="Path_262" data-name="Path 262" class="cls-10" d="M0,0H268.833V64H0Z" transform="translate(128 160)"/>
+        <text id="Lorem_ipsum_dolor_sit" data-name="Lorem ipsum dolor
+sit" class="cls-11" transform="translate(132 178)"><tspan x="0" y="0">Lorem ipsum dolor </tspan><tspan x="0" y="21">sit</tspan></text>
+      </g>
+      <g id="Group_203-2" data-name="Group 203" transform="translate(-128 -85)">
+        <path id="Path_262-2" data-name="Path 262" class="cls-10" d="M0,0H268.833V64H0Z" transform="translate(128 160)"/>
+        <text id="Lorem_ipsum_dolor_sit-2" data-name="Lorem ipsum dolor
+sit" class="cls-11" transform="translate(132 178)"><tspan x="0" y="0">Lorem ipsum dolor </tspan><tspan x="0" y="21">sit</tspan></text>
+      </g>
+      <g id="Group_203-3" data-name="Group 203" transform="translate(-128 -10)">
+        <path id="Path_262-3" data-name="Path 262" class="cls-10" d="M0,0H268.833V64H0Z" transform="translate(128 160)"/>
+        <text id="Lorem_ipsum_dolor_sit-3" data-name="Lorem ipsum dolor
+sit" class="cls-11" transform="translate(132 178)"><tspan x="0" y="0">Lorem ipsum dolor </tspan><tspan x="0" y="21">sit</tspan></text>
+      </g>
+      <g id="Group_203-4" data-name="Group 203" transform="translate(-128 65)">
+        <path id="Path_262-4" data-name="Path 262" class="cls-10" d="M0,0H268.833V64H0Z" transform="translate(128 160)"/>
+        <text id="Lorem_ipsum_dolor_sit-4" data-name="Lorem ipsum dolor
+sit" class="cls-11" transform="translate(132 178)"><tspan x="0" y="0">Lorem ipsum dolor </tspan><tspan x="0" y="21">sit</tspan></text>
+      </g>
+      <g id="Group_203-5" data-name="Group 203" transform="translate(-128 140)">
+        <path id="Path_262-5" data-name="Path 262" class="cls-10" d="M0,0H268.833V64H0Z" transform="translate(128 160)"/>
+        <text id="Lorem_ipsum_dolor_sit-5" data-name="Lorem ipsum dolor
+sit" class="cls-11" transform="translate(132 178)"><tspan x="0" y="0">Lorem ipsum dolor </tspan><tspan x="0" y="21">sit</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
