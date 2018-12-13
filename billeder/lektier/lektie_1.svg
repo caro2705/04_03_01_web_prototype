@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343 391">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6a596b;
+      }
+
+      .cls-2 {
+        fill: #3f3140;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #fffdfd;
+      }
+
+      .cls-3 {
+        font-size: 20px;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 14px;
+      }
+
+      .cls-4 {
+        font-family: ArialMT, Arial;
+      }
+    </style>
+  </defs>
+  <g id="Group_213" data-name="Group 213" transform="translate(-16 -154)">
+    <rect id="Rectangle_1475" data-name="Rectangle 1475" class="cls-1" width="343" height="311" transform="translate(16 154)"/>
+    <rect id="Rectangle_1476" data-name="Rectangle 1476" class="cls-2" width="343" height="80" transform="translate(16 465)"/>
+    <text id="Læs:_Usability_-_Testmetoder_til_mere_brugbare_websites_kap_9_.pdf" data-name="Læs: Usability - Testmetoder til mere brugbare websites (kap 9).pdf" class="cls-3" transform="translate(48 233)"><tspan x="0" y="18">Læs: Usability - Testmetoder </tspan><tspan x="0" y="48">til mere brugbare websites </tspan><tspan x="0" y="78">(kap 9).pdf</tspan></text>
+    <text id="kommentar:_Findes_under_04.01_User_research_materialer" data-name="kommentar: Findes under 04.01 User research, materialer" class="cls-4" transform="translate(48 369)"><tspan x="0" y="13">kommentar: Findes under 04.01 User </tspan><tspan x="0" y="37">research, materialer</tspan></text>
+    <text id="MADC" class="cls-5" transform="translate(72 510)"><tspan x="0" y="0">MADC</tspan></text>
+    <text id="I_dag_6_dec._2018" data-name="I dag, 6 dec. 2018" class="cls-5" transform="translate(48 198)"><tspan x="0" y="0">I dag, 6 dec. 2018</tspan></text>
+    <text id="_1_dag_siden" data-name="1 dag siden" class="cls-4" transform="translate(327 509)"><tspan x="-72.393" y="0">1 dag siden</tspan></text>
+  </g>
+</svg>

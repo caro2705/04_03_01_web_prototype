@@ -1,165 +1,1044 @@
-/*---------------------------------------------------
-1: Variables & Common styling
-2: Layout / Grid
-3: Form styling
-4: Table styles
-5: Page specific styles
-6: bokse
----------------------------------------------------*/
+/*************CAROLINE LEKTIER START**************/
 
-/*---------------------------------------------------
-1: Variables & Common styling
----------------------------------------------------*/
-/*Variables*/
-:root {
-    --color-dark: #2e313e;
-    --color-light: #FEFEFE;
-    --color-accent: rgb(255, 161, 10);
+body {
+    margin: 0;
 }
 
-/*Common styling classes*/
-.rounded {
-    border-radius: 5px;
-}
-
-/*---------------------------------------------------
-2: Layout / Grid
----------------------------------------------------*/
-/*Grid container*/
-.container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 15px;
-    justify-items: center;
-    max-width: 768px;
-    margin: 0 auto;
-    background-color: var(--color-light);
-}
-
-.afleveringerpage .container {
-    justify-items: left;
-}
-
-/*Grid column items*/
-.frontervskeatitle {
-    grid-column-start: 2;
-    grid-column-end: 6;
-}
-
-/*loginpage*/
-.loginform {
-    grid-row-start: 2;
-    grid-column-start: 2;
-    grid-column-end: 6;
-}
-
-.huskmig {
-    grid-row-start: 3;
-    grid-column-start: 4;
-    grid-column-end: 6;
-}
-
-.glemtpassword {
-    grid-row-start: 4;
-    grid-column-start: 4;
-    grid-column-end: 6;
-}
-
-/*loginpage grid*/
-.formgroup {
-    display: grid;
-    grid-template-columns: 1fr 260px;
-    grid-gap: 15px;
-}
-
-.formgroup label {
-    grid-column-start: 1;
-}
-
-.formgroup input {
-    grid-column-start: 2;
-}
-
-.formgroup,
-.glemtpassword {
-    margin-bottom: 1.5em;
-}
-
-/*afleveringer page*/
-.afleveringer {
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: end;
-}
-
-/*---------------------------------------------------
-3: Form styling
----------------------------------------------------*/
-/*Inputs*/
-label,
-input[type=text],
-input[tpe=email],
-input[type=password],
-input[type=submit] {
-    padding: 1em;
-}
-
-input[type=text],
-input[tpe=email],
-input[type=password] {
-    border: 1px solid var(--color-accent);
-}
-
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=password]:focus {
-    border: 3px solid var(--color-accent);
-    outline: -webkit-focus-ring-color auto 0;
-}
-
-input[type=submit] {
-    background-color: black;
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: arial;
     color: white;
-    transition: background-color 1s, color 1s;
 }
 
-input[type=submit]:hover {
-    background-color: var(--color-accent);
+.lektier_overskrift {
+    display: inline-block;
+    width: 100vw;
+    height: 128px;
+    background-color: #6A596B;
+    flex-wrap: wrap;
 }
 
-/*---------------------------------------------------
-4: Table styles
----------------------------------------------------*/
-table {
-    table-layout: fixed;
+.lektier_overskrift h1 {
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-family: arial;
+
+}
+
+
+#lektier_baggrund1 {
+    background-image: url(billeder/lektier/lektier_baggrund.svg);
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#lektier_baggrund2 {
+    background-image: url(billeder/lektier/lektier_baggrund.svg);
+    width: 100vw;
+    height: 178vw;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+
+.lektie1 {
+    display: inline-block;
+    height: 311px;
+
+    background-color: #6A596B;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 25px;
+    border: 10px;
+}
+
+.lektie1_bund {
+    height: 50px;
+
+
+
+    background-color: #3F3140;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 25px;
+    border: 10px;
+    margin-bottom: 0px;
+    column-count: 2;
+
+    position: relative;
+    top: -50px;
+}
+
+.lektie2 {
+    display: inline-block;
+    height: 311px;
+
+    background-color: #6A596B;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 25px;
+    border: 10px;
+    margin-top: 0;
+}
+
+.lektie2_bund {
+
+    height: 50px;
+
+
+    background-color: #3F3140;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 25px;
+    border: 10px;
+    margin-bottom: 0px;
+    column-count: 2;
+
+    position: relative;
+    top: -50px;
+}
+
+.lektie3 {
+    display: inline-block;
+    height: 311px;
+
+    background-color: #6A596B;
+    flex-wrap: wrap;
+    color: white;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 25px;
+}
+
+.lektie3_bund {
+    height: 50px;
+
+
+    background-color: #3F3140;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 25px;
+    border: 10px;
+    margin-bottom: 0px;
+    column-count: 2;
+
+    position: relative;
+    top: -50px;
+}
+
+.dato_kasse {
+    display: inline-block;
+    height: 43px;
+    width: 50vw;
+
+    background-color: #6A596B;
+    padding: 10px;
+    margin: 15px;
+}
+
+.dato_text {
+    height: 40px;
+    width: 30vw;
+    position: absolute;
+    top: 140px;
+    left: 30px;
+}
+
+.lektie_besked {
+    display: inline-block;
+    height: 110px;
+
+    background-color: #6A596B;
+    padding: 10px;
+    padding-top: 0;
+    margin: 15px;
+    margin-top: 0;
+
+    font-size: 18px;
+}
+
+.link {
+    background-image: url(billeder/lektier/link.svg);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 83vw;
+    left: 87vw;
+
+}
+
+.text {
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+
+    font-size: 18px;
+}
+
+.text h4 {
+    color: black;
+}
+
+/*************CAROLINE LEKTIER SLUT**************/
+
+/*************CHRISTIAN LOGIN+MENU START**************/
+
+.rounded {
+    border-radius: 20px;
+}
+
+.menu.html,
+h1 {
+    justify-content: center;
+}
+
+#fronter {
+    background-image: url(fronter.svg);
+    width: 375px;
+    height: 667px;
+    position: absolute;
+
+}
+
+/* Bordered form */
+form {
+    background-image: linear-gradient(to right, #FFB4AA, #F7A39B, #F79D94, #F58E81, #EA847C);
+    height: 100vh;
+}
+
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #6A596B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
     width: 100%;
 }
 
-th {
-    background-color: var(--color-dark);
-    color: var(--color-light);
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
 }
 
-td {
-    border: 1px dashed var(--color-accent);
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 0 0 12px 0;
 }
 
-/*---------------------------------------------------
-5: Page specific styles
----------------------------------------------------*/
-/*Login page*/
-.loginpage {
-    background-color: var(--color-accent);
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.overskrift {
+    display: inline-block;
+    width: 100vw;
+    height: 128px;
+    background-color: #6A596B;
+    flex-wrap: wrap;
+}
+
+.overskrift h1 {
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-family: arial;
+
+}
+
+#kea {
+    background-image: url(kea.svg);
+    background-size: cover;
+    height: 128px;
+
+    width: 100vw;
+
+}
+
+#baggrund1 {
+    background-image: url(baggrundpink.svg);
+    width: 100vw;
+    height: 539px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logud {
+    background-image: url(logud.svg);
+    background-size: 100%;
+    width: 60px;
+    height: 59px;
+    position: absolute;
+    top: 10px;
+    left: 83vw;
+
+}
+
+#lektier {
+    background-image: url(lektier.svg);
+    position: absolute;
+    left: 10vw;
+    top: 35vw;
+    background-size: 100%;
+    width: 128px;
+    height: 170px;
+    background-repeat: no-repeat;
+
+}
+
+#chat {
+    background-image: url(chat.svg);
+    position: absolute;
+    left: 55vw;
+    top: 35vw;
+    background-size: 100%;
+    width: 128px;
+    height: 170px;
+    background-repeat: no-repeat;
+
+}
+
+#skema {
+    background-image: url(skema.svg);
+    position: absolute;
+    left: 10vw;
+    top: 83vw;
+    background-size: 100%;
+    width: 128px;
+    height: 170px;
+    background-repeat: no-repeat;
+
+}
+
+#afleveringer {
+    background-image: url(afleveringer.svg);
+    position: absolute;
+    left: 53vw;
+    top: 83vw;
+    background-size: 100%;
+    width: 144px;
+    height: 170px;
+    background-repeat: no-repeat;
+
+}
+
+#nyheder {
+    background-image: url(nyheder.svg);
+    position: absolute;
+    left: 10vw;
+    top: 131vw;
+    background-size: 100%;
+    width: 128px;
+    height: 180px;
+    background-repeat: no-repeat;
+
 }
 
 /*---------------------------------------------------
 6: bokse
 ---------------------------------------------------*/
+#opslagstavle {
+    background-image: url(opslagstavle.svg);
+    position: absolute;
+    left: 51vw;
+    top: 131vw;
+    background-size: 100%;
+    width: 156px;
+    height: 180px;
+    background-repeat: no-repeat;
+
+}
+
+/*************CHRISTIAN LOGIN+MENU SLUT**************/
+
+
+/*************ASKE CHAT START**************/
+.overskrift_chat {
+    display: inline-block;
+    width: 100vw;
+    height: 128px;
+    background-color: #6A596B;
+    flex-wrap: wrap;
+}
+
+.overskrift_chat h1 {
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-family: arial;
+
+}
+
+
+#baggrund_chat {
+    background-image: url(billeder/lektier/lektier_baggrund.svg);
+    width: 100vw;
+    height: 896px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#baggrund_beskeder {
+    background-image: url(billeder/lektier/lektier_baggrund.svg);
+    width: 100vw;
+    height: 667px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#soeg {
+    background-image: url(SVG/soeg.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 350px;
+    height: 49px;
+
+    margin: 13px;
+}
+
+#samtale1 {
+    background-image: url(SVG/samtale1.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 350px;
+    height: 70px;
+    margin: 13px;
+    top: 200px;
+}
+
+#samtale2 {
+    background-image: url(SVG/samtale2.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 350px;
+    height: 70px;
+    margin: 13px;
+    top: 300px;
+}
+
+#samtale3 {
+    background-image: url(SVG/samtale3.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 350px;
+    height: 70px;
+
+    margin: 13px;
+    top: 400px;
+}
+
+#samtale4 {
+    background-image: url(SVG/samtale4.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 350px;
+    height: 70px;
+
+    margin: 13px;
+    top: 500px;
+}
+
+#samtale5 {
+    background-image: url(SVG/samtale5.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 350px;
+    height: 70px;
+
+    margin: 13px;
+    top: 600px;
+
+}
+
+#samtale6 {
+    background-image: url(SVG/samtale6.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 350px;
+    height: 70px;
+
+    margin: 13px;
+    top: 700px;
+
+
+}
+
+#samtale7 {
+    background-image: url(SVG/samtale7.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 350px;
+    height: 70px;
+
+    margin: 13px;
+    top: 800px;
+}
+
+
+#tools2 {
+    background-image: url(SVG/tools2.svg);
+    position: absolute;
+    top: 40vw;
+    background-size: 100%;
+    width: 375px;
+    height: 517px;
+}
+
+/*************ASKE CHAT SLUT**************/
+
+/*************JOANNA AFLEVERING START**************/
+
+/*---------------------------------------------------
+6: Aflevering
+---------------------------------------------------*/
+div {
+    font-family: arial;
+}
+
+/*---------------------------------------------------
+farver
+----------------------------------------------------*/
+
+:root {
+    --color--purpledark: #392b39;
+    --color--purplelight: #624f62;
+}
+
+
+/*---------------------------------------------------
+1. side i prototype
+-----------------------------------------------------*/
+
 #aflevering {
     background-image: url(billeder/aflevering_baggrund.svg);
     background-size: 100%;
-    width: 100vw;
-    height: 54.70vw;
+    width: 375px;
+    height: 667px;
     position: relative;
-
+    box-sizing: border-box;
 }
+
+.tilbageknap_boks {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #FCAEA4;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#tilbage_knap {
+    background-image: url(billeder/tilbage_knap.svg);
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+}
+
+#overboks1 {
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    top: 150px;
+    left: 35px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 23px;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#boks1_1 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 260px;
+    left: 35px;
+    padding: 23px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#boks1_2 {
+    background-color: var(--color--purplelight);
+    color: white;
+    background-size: 100%;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 360px;
+    left: 35px;
+    padding: 23px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#boks1_3 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 460px;
+    left: 35px;
+    padding: 23px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#boks1_4 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 560px;
+    left: 35px;
+    padding: 23px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/*------------------------------------------------
+2. side i prototype
+--------------------------------------------------*/
+
+#overboks2 {
+    width: 300px;
+    height: 60px;
+    top: 150px;
+    left: 35px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 23px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks2_1 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 300px;
+    height: 70px;
+    top: 260px;
+    left: 35px;
+    padding: 23px;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks2_2 {
+    background-color: var(--color--purplelight);
+    color: white;
+    background-size: 100%;
+    width: 300px;
+    height: 70px;
+    top: 360px;
+    left: 35px;
+    padding: 23px;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks2_3 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 300px;
+    height: 70px;
+    top: 460px;
+    left: 35px;
+    padding: 23px;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks2_4 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 560px;
+    left: 35px;
+    padding: 23px;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+/*
+---------------------------------------------------
+3. side i prototype
+---------------------------------------------------
+*/
+
+
+#overboks3 {
+    width: 300px;
+    height: 60px;
+    top: 150px;
+    left: 35px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 23px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#boks3_1 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 210px;
+    height: 70px;
+    top: 260px;
+    left: 123px;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks3_2 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 210px;
+    height: 70px;
+    top: 360px;
+    left: 123px;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks3_3 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 210px;
+    height: 70px;
+    top: 460px;
+    left: 123px;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks3_4 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 210px;
+    height: 70px;
+    top: 560px;
+    left: 123px;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.miniboks1 {
+    width: 80px;
+    height: 70px;
+    top: 0px;
+    left: -80px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 19px;
+    text-align: right;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.miniboks2 {
+    width: 80px;
+    height: 70px;
+    top: 360px;
+    left: 43px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 23px;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.miniboks3 {
+    width: 80px;
+    height: 70px;
+    top: 460px;
+    left: 43px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 23px;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.miniboks4 {
+    width: 80px;
+    height: 70px;
+    top: 560px;
+    left: 43px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 23px;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+/*
+
+---------------------------------------------------
+4. side i prototype
+---------------------------------------------------
+*/
+
+#overboks4 {
+    width: 300px;
+    height: 60px;
+    top: 150px;
+    left: 35px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 23px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#boks4_1 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 210px;
+    height: 70px;
+    top: 260px;
+    left: 123px;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks4_2 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 210px;
+    height: 70px;
+    top: 360px;
+    left: 123px;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.miniboks5 {
+    width: 90px;
+    height: 70px;
+    top: 260px;
+    left: 40px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 19px;
+    text-align: right;
+    position: absolute;
+    font-style: italic;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+.miniboks6 {
+    width: 90px;
+    height: 70px;
+    top: 360px;
+    left: 40px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 19px;
+    text-align: center;
+    position: absolute;
+    font-style: italic;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+/*
+
+---------------------------------------------------
+5. side i prototype
+---------------------------------------------------
+*/
+
+
+#overboks5 {
+    width: 300px;
+    height: 60px;
+    top: 150px;
+    left: 35px;
+    background-color: var(--color--purpledark);
+    color: white;
+    padding: 23px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#boks5_1 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 212px;
+    height: 50px;
+    top: 235px;
+    left: 45px;
+    padding: 23px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks5_2 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 212px;
+    height: 50px;
+    top: 300px;
+    left: 45px;
+    padding: 23px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks5_3 {
+    background-color: var(--color--purplelight);
+    color: white;
+    width: 212px;
+    height: 50px;
+    top: 365px;
+    left: 45px;
+    padding: 23px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#boks5_4 {
+    background-color: var(--color--purpledark);
+    color: white;
+    width: 275px;
+    height: 200px;
+    top: 450px;
+    left: 45px;
+    padding: 23px;
+    text-align: left;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+.tekst1 {
+    top: 0px;
+    left: 20px;
+    position: absolute;
+}
+
+
+.tekst2 {
+    top: 20px;
+    left: 20px;
+    padding: 20px;
+    position: absolute;
+}
+
+h4 {
+    top: 0px;
+    left: 20px;
+    position: absolute;
+}
+
+
+
+/*
+
+---------------------------------------------------
+Billeder af icon godkend/ ikke godkend
+---------------------------------------------------
+*/
+
+
+.afleveret {
+    width: 80px;
+    height: 50px;
+    top: 235px;
+    left: 250px;
+    position: absolute
+}
+
+.godkendt {
+    width: 80px;
+    height: 50px;
+    top: 300px;
+    left: 250px;
+    position: absolute
+}
+
+.ikke_godkendt {
+    width: 80px;
+    height: 50px;
+    top: 365px;
+    left: 250px;
+    position: absolute
+}
+
+
+/*************JOANNA AFLEVERING SLUT**************/

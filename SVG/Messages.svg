@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338 342">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3f3140;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #fffdfd;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        font-size: 14px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-3, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #69596a;
+      }
+
+      .cls-5 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        fill: #6a596b;
+      }
+    </style>
+  </defs>
+  <g id="Messages" transform="translate(-3)">
+    <g id="Message" transform="translate(23)">
+      <rect id="Rectangle_306" data-name="Rectangle 306" class="cls-1" width="280" height="112" rx="6"/>
+      <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipisicing_elit_sed_do_eiusmod_tempor." data-name="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor." class="cls-2" transform="translate(24 24)"><tspan x="0" y="13">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="37">consectetur adipisicing elit, sed do </tspan><tspan x="0" y="61">eiusmod tempor.</tspan></text>
+    </g>
+    <g id="Message-2" data-name="Message" transform="translate(102 278)">
+      <rect id="Rectangle_309" data-name="Rectangle 309" class="cls-1" width="201" height="64" rx="6"/>
+      <text id="Sed_do_eiusmod_tempor." data-name="Sed do eiusmod tempor." class="cls-3" transform="translate(24 24)"><tspan x="0" y="13">Sed do eiusmod tempor.</tspan></text>
+    </g>
+    <g id="Message-3" data-name="Message" transform="translate(40 139)">
+      <rect id="Rectangle_308" data-name="Rectangle 308" class="cls-4" width="271" height="88" rx="6"/>
+      <text id="Excepteur_sint_occaecat_cupidatat_non_proident." data-name="Excepteur sint occaecat cupidatat non proident." class="cls-3" transform="translate(24 24)"><tspan x="0" y="13">Excepteur sint occaecat cupidatat </tspan><tspan x="0" y="37">non proident.</tspan></text>
+    </g>
+    <text id="Mandag_10:40_" data-name="Mandag, 10:40 " class="cls-5" transform="translate(172 260)"><tspan x="-50.183" y="0">Mandag, 10:40 </tspan></text>
+    <g id="avatar" transform="translate(319)">
+      <circle id="Ellipse_112" data-name="Ellipse 112" class="cls-6" cx="12" cy="12" r="12" transform="translate(-2)"/>
+      <path id="Union_10" data-name="Union 10" class="cls-7" d="M0,9V7.875c0-1.238,2.025-2.25,4.5-2.25S9,6.637,9,7.875V9ZM2.25,2.25A2.25,2.25,0,1,1,4.5,4.5,2.25,2.25,0,0,1,2.25,2.25Z" transform="translate(5.5 6.75)"/>
+    </g>
+    <g id="avatar-2" data-name="avatar" transform="translate(317 278)">
+      <path id="Path_706" data-name="Path 706" class="cls-6" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z"/>
+      <path id="Union_12" data-name="Union 12" class="cls-7" d="M0,9V7.875c0-1.238,2.025-2.25,4.5-2.25S9,6.637,9,7.875V9ZM2.25,2.25A2.25,2.25,0,1,1,4.5,4.5,2.25,2.25,0,0,1,2.25,2.25Z" transform="translate(7.5 6.75)"/>
+    </g>
+    <g id="avatar-3" data-name="avatar" transform="translate(3 139)">
+      <path id="Path_707" data-name="Path 707" class="cls-1" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z"/>
+      <path id="Union_11" data-name="Union 11" class="cls-7" d="M0,9V7.875c0-1.238,2.025-2.25,4.5-2.25S9,6.637,9,7.875V9ZM2.25,2.25A2.25,2.25,0,1,1,4.5,4.5,2.25,2.25,0,0,1,2.25,2.25Z" transform="translate(7.5 6.75)"/>
+    </g>
+  </g>
+</svg>

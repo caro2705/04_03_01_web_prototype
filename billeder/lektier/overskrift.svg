@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 128">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-iPhone_6_7_8_1);
+      }
+
+      .cls-2 {
+        fill: #6a596b;
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: #fffaf9;
+        font-size: 54px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-iPhone_6_7_8_1">
+      <rect width="375" height="128"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_6_7_8_1" data-name="iPhone 6/7/8 – 1" class="cls-1">
+    <rect class="cls-6" width="375" height="128"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2">
+      <rect class="cls-4" width="375" height="128"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="374" height="127"/>
+    </g>
+    <text id="Lektier" class="cls-3" transform="translate(106 83)"><tspan x="0" y="0">Lektier</tspan></text>
+  </g>
+</svg>
